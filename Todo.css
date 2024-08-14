@@ -1,0 +1,57 @@
+body {
+    background-color: #efe6e6;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#main-head {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    gap: 20px; /* Sets both row-gap and column-gap to 20px */
+    margin-top: 10px;
+}
+
+.add {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#todo-input {
+    padding: 10px 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+#todo-date {
+    padding: 10px 5px;
+    width: 100%;
+    font-size: 16px;
+}
